@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #ffffff;
+    color: #222;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: white;
+    border-bottom: 1px solid #eee;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: 700;
+    color: #4285f4;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background: #f5f9ff;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero button {
+    padding: 12px 30px;
+    background: #4285f4;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+section {
+    padding: 80px 40px;
+}
+
+.services .service-grid,
+.portfolio .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.service-card, .portfolio-card {
+    background: white;
+    border: 1px solid #eee;
+    padding: 25px;
+    border-radius: 12px;
+    min-height: 150px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #f6f6f6;
+    color: #555;
+}
